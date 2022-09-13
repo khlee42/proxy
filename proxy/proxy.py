@@ -17,7 +17,7 @@ def get_path(file):
 class Proxy:
     """
     Proxy class object contains proxy configurations for HTML requests.
-    config.yaml must contains:
+    config dictionary must contains:
         'SOCKS5': access credential
         'PROXY': dict of proxy name and url
         'HEADER': dict of headers
