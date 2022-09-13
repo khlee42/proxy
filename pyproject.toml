@@ -1,0 +1,18 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "proxy"
+version = "1.0.0"
+description = "Randomized proxy setting for requests.get"
+readme = "README.md"
+dependencies = [
+    "requests[socks]",
+]
+requires-python = ">=3.10"
+
+[project.urls]
+Homepage = "https://github.com/khlee42/proxy"
